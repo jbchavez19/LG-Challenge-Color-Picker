@@ -1,0 +1,76 @@
+button {
+  min-width: 3em;
+  min-height: 3em;
+  border-radius: 1.5em;
+}
+
+section {
+  padding-bottom: 2em
+}
+
+section.selected {
+  border-style: solid;
+  border-width: .25em;
+}
+
+div.subsection {
+  margin-bottom: 1em;
+  padding-bottom: 1em
+}
+
+.color1 {
+  background-color: #1f19cc;
+}
+
+.color2 {
+  background-color: #3718c2;
+}
+
+.color3 {
+  background-color: #5018b8;
+}
+
+.color4 {
+  background-color: #6918ae;
+}
+
+.color5 {
+  background-color: #8118a4;
+}
+
+.color6 {
+  background-color: #9a189a;
+}
+
+.color7 {
+  background-color: #b31890;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.indigo {
+  background-color: indigo;
+}
+
+.violet {
+  background-color: violet;
+}
+

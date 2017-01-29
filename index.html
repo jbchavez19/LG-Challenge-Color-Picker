@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Color Picker - Learners Guild Challenge</title>
+
+    <link rel="stylesheet" href="main.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <header>
+	  <h1>Color Picker Challenge Example!</h1>
+    </header>
+    
+    <section>
+      <h2>1: Three Primary Colors</h2>
+      <div>
+        <button class="red" onClick="setColor('red')"></button>
+        <button class="blue" onClick="setColor('blue')"></button>
+        <button class="yellow" onClick="setColor('yellow')"></button>
+      </div>
+    </section>
+    
+    <section>
+      <h2>2: The Full Rainbow</h2>
+      <div>
+        <button class="red" onClick="setColor('red')"></button>
+        <button class="orange" onClick="setColor('orange')"></button>
+        <button class="yellow" onClick="setColor('yellow')"></button>
+        <button class="green" onClick="setColor('green')"></button>
+        <button class="blue" onClick="setColor('blue')"></button>
+        <button class="indigo" onClick="setColor('indigo')"></button>
+        <button class="violet" onClick="setColor('violet')"></button>
+      </div>
+    </section>
+    
+    <section>
+      <h2>3: Edit Text Color</h2>
+      <p>Click the buttons to change the color of the first heading text.</p>
+      <div>
+        <button class="red" onClick="setTextColor('red')"></button>
+        <button class="orange" onClick="setTextColor('orange')"></button>
+        <button class="yellow" onClick="setTextColor('yellow')"></button>
+        <button class="green" onClick="setTextColor('green')"></button>
+        <button class="blue" onClick="setTextColor('blue')"></button>
+        <button class="indigo" onClick="setTextColor('indigo')"></button>
+        <button class="violet" onClick="setTextColor('violet')"></button>
+      </div>
+    </section>
+    
+    <section>
+      <h2>4: Choose a Harmonious Palette</h2>
+      <div>
+        <button class="color1" onClick="setColor('color1')"></button>
+        <button class="color2" onClick="setColor('color2')"></button>
+        <button class="color3" onClick="setColor('color3')"></button>
+        <button class="color4" onClick="setColor('color4')"></button>
+        <button class="color5" onClick="setColor('color5')"></button>
+        <button class="color6" onClick="setColor('color6')"></button>
+        <button class="color7" onClick="setColor('color7')"></button>
+      </div>
+    </section>
+    
+    <section>
+      <h2>5: Get Creative</h2>
+      <div class="subsection">
+        <h3>Choose your color</h3>
+        <p>Choose your color and click the text on the numbered headings.</p>
+        <p><input type="text" id="choose-color"></p>
+        <p>Hint: Check out <a href="http://www.w3schools.com/colors/colors_names.asp" target="_blank">W3Schools.com</a>
+          for a list of colors.</p>
+      </div>
+      
+      <div class="subsection">
+        <h3>HTML Color Input and Selecting Elements</h3>
+        <p>Click the section that you want to change the background color of, and then
+          choose your color to set the background.</p>
+      </div>
+    </section>
+    <p><input type="color" id="background-color"></p>
+  </body>
+
+  <script type="text/javascript" src="script.js"></script>
+</html>
