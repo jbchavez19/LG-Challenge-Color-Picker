@@ -6,6 +6,7 @@ button {
 
 section {
   padding-bottom: 2em
+  boder-style: transparent;
 }
 
 section.selected {
